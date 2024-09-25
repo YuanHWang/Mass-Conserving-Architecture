@@ -1,0 +1,436 @@
+running build
+running config_cc
+unifing config_cc, config, build_clib, build_ext, build commands --compiler options
+running config_fc
+unifing config_fc, config, build_clib, build_ext, build commands --fcompiler options
+running build_src
+build_src
+building extension "exsnow" sources
+f2py options: []
+f2py:> /tmp/tmpd0gfw9q7/src.linux-x86_64-3.7/exsnowmodule.c
+creating /tmp/tmpd0gfw9q7/src.linux-x86_64-3.7
+Reading fortran codes...
+	Reading file 'exsnow19.f' (format:fix,strict)
+	Reading file 'PACK19.f' (format:fix,strict)
+	Reading file 'SNDEPTH.f' (format:fix,strict)
+	Reading file 'SNEW.f' (format:fix,strict)
+	Reading file 'SNOWPACK.f' (format:fix,strict)
+	Reading file 'SNOWT.f' (format:fix,strict)
+	Reading file 'adjc19.f' (format:fix,strict)
+	Reading file 'aeco19.f' (format:fix,strict)
+	Reading file 'aesc19.f' (format:fix,strict)
+	Reading file 'melt19.f' (format:fix,strict)
+	Reading file 'rout19.f' (format:fix,strict)
+	Reading file 'updt19.f' (format:fix,strict)
+	Reading file 'zero19.f' (format:fix,strict)
+Post-processing...
+	Block: exsnow
+			Block: exsnow19
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "ndt".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "ta".
+{'attrspec': ['dimension(ndt)']}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "px".
+{'attrspec': ['dimension(ndt)']}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "pcts".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "rsl".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "owe".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "osc".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "pgm".
+{'attrspec': ['dimension(ndt)']}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "rm".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "twe".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "cover".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "cwe".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "caesc".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "ifut".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "idt".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "idn".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "imn".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "iyr".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "tprev".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "sxfall".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "ds".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "alat".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "scf".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "uadj".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "si".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "tipm".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "pxtemp".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "plwhc".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "daygm".
+{'attrspec': ['dimension(12)']}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "adc".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "pa".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "lmfv".
+{'attrspec': ['dimension(12)']}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "smfv".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "laec".
+{}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "nptae".
+{'attrspec': ['dimension(2,14)']}
+In: :exsnow:PACK19.f:pack19
+vars2fortran: No typespec for argument "ae".
+			Block: pack19
+{}
+In: :exsnow:SNDEPTH.f:sndepth
+vars2fortran: No typespec for argument "we".
+{}
+In: :exsnow:SNDEPTH.f:sndepth
+vars2fortran: No typespec for argument "sliq".
+{}
+In: :exsnow:SNDEPTH.f:sndepth
+vars2fortran: No typespec for argument "dfall".
+{}
+In: :exsnow:SNDEPTH.f:sndepth
+vars2fortran: No typespec for argument "sgslos".
+{}
+In: :exsnow:SNDEPTH.f:sndepth
+vars2fortran: No typespec for argument "srfrz".
+{}
+In: :exsnow:SNDEPTH.f:sndepth
+vars2fortran: No typespec for argument "ta".
+{}
+In: :exsnow:SNDEPTH.f:sndepth
+vars2fortran: No typespec for argument "dta".
+{}
+In: :exsnow:SNDEPTH.f:sndepth
+vars2fortran: No typespec for argument "idt".
+{}
+In: :exsnow:SNDEPTH.f:sndepth
+vars2fortran: No typespec for argument "sh".
+{}
+In: :exsnow:SNDEPTH.f:sndepth
+vars2fortran: No typespec for argument "ds".
+{}
+In: :exsnow:SNDEPTH.f:sndepth
+vars2fortran: No typespec for argument "tsnow".
+			Block: sndepth
+{}
+In: :exsnow:SNEW.f:snew
+vars2fortran: No typespec for argument "t".
+{}
+In: :exsnow:SNEW.f:snew
+vars2fortran: No typespec for argument "p".
+{}
+In: :exsnow:SNEW.f:snew
+vars2fortran: No typespec for argument "hcn".
+{}
+In: :exsnow:SNEW.f:snew
+vars2fortran: No typespec for argument "dhn".
+			Block: snew
+{}
+In: :exsnow:SNOWPACK.f:snowpack
+vars2fortran: No typespec for argument "w".
+{}
+In: :exsnow:SNOWPACK.f:snowpack
+vars2fortran: No typespec for argument "dts".
+{}
+In: :exsnow:SNOWPACK.f:snowpack
+vars2fortran: No typespec for argument "hc".
+{}
+In: :exsnow:SNOWPACK.f:snowpack
+vars2fortran: No typespec for argument "ds".
+{}
+In: :exsnow:SNOWPACK.f:snowpack
+vars2fortran: No typespec for argument "sliq".
+{}
+In: :exsnow:SNOWPACK.f:snowpack
+vars2fortran: No typespec for argument "dfall".
+{}
+In: :exsnow:SNOWPACK.f:snowpack
+vars2fortran: No typespec for argument "srfrz".
+{}
+In: :exsnow:SNOWPACK.f:snowpack
+vars2fortran: No typespec for argument "tsnow".
+			Block: snowpack
+{}
+In: :exsnow:SNOWT.f:snowt
+vars2fortran: No typespec for argument "sh".
+{}
+In: :exsnow:SNOWT.f:snowt
+vars2fortran: No typespec for argument "ds".
+{}
+In: :exsnow:SNOWT.f:snowt
+vars2fortran: No typespec for argument "we".
+{}
+In: :exsnow:SNOWT.f:snowt
+vars2fortran: No typespec for argument "sliq".
+{}
+In: :exsnow:SNOWT.f:snowt
+vars2fortran: No typespec for argument "dta".
+{}
+In: :exsnow:SNOWT.f:snowt
+vars2fortran: No typespec for argument "tsnow".
+{}
+In: :exsnow:SNOWT.f:snowt
+vars2fortran: No typespec for argument "dhc".
+			Block: snowt
+{}
+In: :exsnow:adjc19.f:adjc19
+vars2fortran: No typespec for argument "twe".
+{}
+In: :exsnow:adjc19.f:adjc19
+vars2fortran: No typespec for argument "si".
+{'attrspec': ['dimension(11)']}
+In: :exsnow:adjc19.f:adjc19
+vars2fortran: No typespec for argument "adc".
+			Block: adjc19
+{}
+In: :exsnow:aeco19.f:aeco19
+vars2fortran: No typespec for argument "cover".
+{}
+In: :exsnow:aeco19.f:aeco19
+vars2fortran: No typespec for argument "twe".
+{}
+In: :exsnow:aeco19.f:aeco19
+vars2fortran: No typespec for argument "si".
+{'attrspec': ['dimension(11)']}
+In: :exsnow:aeco19.f:aeco19
+vars2fortran: No typespec for argument "adc".
+			Block: aeco19
+{}
+In: :exsnow:aesc19.f:aesc19
+vars2fortran: No typespec for argument "we".
+{}
+In: :exsnow:aesc19.f:aesc19
+vars2fortran: No typespec for argument "accmax".
+{}
+In: :exsnow:aesc19.f:aesc19
+vars2fortran: No typespec for argument "sb".
+{}
+In: :exsnow:aesc19.f:aesc19
+vars2fortran: No typespec for argument "sbaesc".
+{}
+In: :exsnow:aesc19.f:aesc19
+vars2fortran: No typespec for argument "sbws".
+{}
+In: :exsnow:aesc19.f:aesc19
+vars2fortran: No typespec for argument "si".
+{'attrspec': ['dimension(11)']}
+In: :exsnow:aesc19.f:aesc19
+vars2fortran: No typespec for argument "adc".
+{}
+In: :exsnow:aesc19.f:aesc19
+vars2fortran: No typespec for argument "aeadj".
+{}
+In: :exsnow:aesc19.f:aesc19
+vars2fortran: No typespec for argument "aesc".
+			Block: aesc19
+{}
+In: :exsnow:melt19.f:melt19
+vars2fortran: No typespec for argument "idn".
+{}
+In: :exsnow:melt19.f:melt19
+vars2fortran: No typespec for argument "imn".
+{}
+In: :exsnow:melt19.f:melt19
+vars2fortran: No typespec for argument "alat".
+{}
+In: :exsnow:melt19.f:melt19
+vars2fortran: No typespec for argument "ta".
+{}
+In: :exsnow:melt19.f:melt19
+vars2fortran: No typespec for argument "tindex".
+{}
+In: :exsnow:melt19.f:melt19
+vars2fortran: No typespec for argument "tipm".
+{}
+In: :exsnow:melt19.f:melt19
+vars2fortran: No typespec for argument "cnhs".
+{}
+In: :exsnow:melt19.f:melt19
+vars2fortran: No typespec for argument "lmfv".
+{'attrspec': ['dimension(12)']}
+In: :exsnow:melt19.f:melt19
+vars2fortran: No typespec for argument "smfv".
+			Block: melt19
+{}
+In: :exsnow:rout19.f:rout19
+vars2fortran: No typespec for argument "it".
+{}
+In: :exsnow:rout19.f:rout19
+vars2fortran: No typespec for argument "excess".
+{}
+In: :exsnow:rout19.f:rout19
+vars2fortran: No typespec for argument "we".
+{}
+In: :exsnow:rout19.f:rout19
+vars2fortran: No typespec for argument "aesc".
+{}
+In: :exsnow:rout19.f:rout19
+vars2fortran: No typespec for argument "storge".
+{}
+In: :exsnow:rout19.f:rout19
+vars2fortran: No typespec for argument "nexlag".
+{'attrspec': ['dimension(7)']}
+In: :exsnow:rout19.f:rout19
+vars2fortran: No typespec for argument "exlag".
+{}
+In: :exsnow:rout19.f:rout19
+vars2fortran: No typespec for argument "packro".
+			Block: rout19
+{}
+In: :exsnow:updt19.f:updt19
+vars2fortran: No typespec for argument "owe".
+{}
+In: :exsnow:updt19.f:updt19
+vars2fortran: No typespec for argument "osc".
+{}
+In: :exsnow:updt19.f:updt19
+vars2fortran: No typespec for argument "twe".
+{}
+In: :exsnow:updt19.f:updt19
+vars2fortran: No typespec for argument "cover".
+{}
+In: :exsnow:updt19.f:updt19
+vars2fortran: No typespec for argument "iupwe".
+{}
+In: :exsnow:updt19.f:updt19
+vars2fortran: No typespec for argument "iupsc".
+{}
+In: :exsnow:updt19.f:updt19
+vars2fortran: No typespec for argument "wetol".
+{}
+In: :exsnow:updt19.f:updt19
+vars2fortran: No typespec for argument "sctol".
+{}
+In: :exsnow:updt19.f:updt19
+vars2fortran: No typespec for argument "si".
+{'attrspec': ['dimension(11)']}
+In: :exsnow:updt19.f:updt19
+vars2fortran: No typespec for argument "adc".
+			Block: updt19
+			Block: zero19
+Post-processing (stage 2)...
+Building modules...
+	Building module "exsnow"...
+		Constructing wrapper function "exsnow19"...
+		  raim,sneqv,snow,snowh = exsnow19(idts,idt,ida,imn,iyr,pcp,tmp,alat,scf,mfmax1,mfmin1,uadj1,si,nmf1,tipm1,mbase,pxtemp,plwhc,daygm,elev1,pa,adc,cs,tprev)
+		Constructing wrapper function "pack19"...
+		  pack19(ta,px,pcts,rsl,owe,osc,pgm,rm,twe,cover,cwe,caesc,ifut,idt,idn,imn,iyr,tprev,sxfall,ds,alat,scf,mfmax,mfmin,uadj,si,nmf,tipm,mbase,pxtemp,plwhc,daygm,adc,pa,lmfv,smfv,laec,nptae,ae,[ndt])
+		Constructing wrapper function "sndepth"...
+		  sndepth(we,sliq,dfall,sgslos,srfrz,ta,dta,idt,sh,ds,tsnow)
+		Constructing wrapper function "snew"...
+		  snew(t,p,hcn,dhn)
+		Constructing wrapper function "snowpack"...
+		  snowpack(w,dts,hc,ds,sliq,dfall,srfrz,tsnow)
+		Constructing wrapper function "snowt"...
+		  snowt(sh,ds,we,sliq,dta,tsnow,dhc)
+		Constructing wrapper function "adjc19"...
+		  adjc19(twe,si,adc)
+		Constructing wrapper function "aeco19"...
+		  aeco19(cover,twe,si,adc)
+		Constructing wrapper function "aesc19"...
+		  aesc19(we,liqw,accmax,sb,sbaesc,sbws,si,adc,aeadj,aesc)
+		Constructing wrapper function "melt19"...
+		  melt19(idn,imn,alat,ta,melt,mfmax,mfmin,mbase,tindex,tipm,cnhs,nmf,lmfv,smfv)
+		Constructing wrapper function "rout19"...
+		  rout19(it,excess,we,aesc,storge,nexlag,exlag,packro)
+		Constructing wrapper function "updt19"...
+		  updt19(owe,osc,twe,cover,iupwe,iupsc,wetol,sctol,si,adc)
+		Constructing wrapper function "zero19"...
+		  zero19()
+		Constructing COMMON block support for "fsnwup"...
+		  iupwe,iupsc
+		Constructing COMMON block support for "snco19"...
+		  we,neghs,liqw,tindex,accmax,sb,sbaesc,sbws,storge,aeadj,nexlag,exlag,sndpt,sntmp
+		Constructing COMMON block support for "snup19"...
+		  mfc,sfallx,windc,sctol,wetol,snof,uadjc
+		Constructing COMMON block support for "sums19"...
+		  spx,ssfall,srm,smelt,smeltr,srobg,dsfall,drain,dqnet,drsl,ndrsp
+	Wrote C/API module "exsnow" to file "/tmp/tmpd0gfw9q7/src.linux-x86_64-3.7/exsnowmodule.c"
+	Fortran 77 wrappers are saved to "/tmp/tmpd0gfw9q7/src.linux-x86_64-3.7/exsnow-f2pywrappers.f"
+  adding '/tmp/tmpd0gfw9q7/src.linux-x86_64-3.7/fortranobject.c' to sources.
+  adding '/tmp/tmpd0gfw9q7/src.linux-x86_64-3.7' to include_dirs.
+copying /opt/ohpc/pub/apps/anaconda/2020.02/lib/python3.7/site-packages/numpy/f2py/src/fortranobject.c -> /tmp/tmpd0gfw9q7/src.linux-x86_64-3.7
+copying /opt/ohpc/pub/apps/anaconda/2020.02/lib/python3.7/site-packages/numpy/f2py/src/fortranobject.h -> /tmp/tmpd0gfw9q7/src.linux-x86_64-3.7
+  adding '/tmp/tmpd0gfw9q7/src.linux-x86_64-3.7/exsnow-f2pywrappers.f' to sources.
+build_src: building npy-pkg config files
+running build_ext
+customize UnixCCompiler
+C compiler: /opt/ohpc/pub/apps/cuda/11.8/Linux_x86_64/22.11/compilers/bin/nvc -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -I/opt/ohpc/pub/apps/python/3.8.2/include/python3.8 -I/opt/ohpc/pub/apps/cuda/11.8/include -I/opt/ohpc/pub/apps/nco/4.9.3/include -I/opt/ohpc/pub/apps/ncl_ncarg/6.6.2/include -fPIC
+
+creating /tmp/tmp1f5456fu/tmp
+creating /tmp/tmp1f5456fu/tmp/tmp1f5456fu
+compile options: '-MMD -MF /tmp/tmp1f5456fu/file.c.d -c'
+nvc: /tmp/tmp1f5456fu/file.c
+customize UnixCCompiler using build_ext
+get_default_fcompiler: matching types: '['gnu95', 'intel', 'lahey', 'pg', 'absoft', 'nag', 'vast', 'compaq', 'intele', 'intelem', 'gnu', 'g95', 'pathf95', 'nagfor']'
+customize Gnu95FCompiler
+Found executable /opt/ohpc/pub/apps/cuda/11.8/Linux_x86_64/22.11/compilers/bin/nvfortran
+Found executable /opt/ohpc/pub/compiler/gcc/8.3.0/bin/gfortran
+customize Gnu95FCompiler
+customize Gnu95FCompiler using build_ext
+building 'exsnow' extension
+compiling C sources
+C compiler: /opt/ohpc/pub/apps/cuda/11.8/Linux_x86_64/22.11/compilers/bin/nvc -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -I/opt/ohpc/pub/apps/python/3.8.2/include/python3.8 -I/opt/ohpc/pub/apps/cuda/11.8/include -I/opt/ohpc/pub/apps/nco/4.9.3/include -I/opt/ohpc/pub/apps/ncl_ncarg/6.6.2/include -fPIC
+
+creating /tmp/tmpd0gfw9q7/tmp
+creating /tmp/tmpd0gfw9q7/tmp/tmpd0gfw9q7
+creating /tmp/tmpd0gfw9q7/tmp/tmpd0gfw9q7/src.linux-x86_64-3.7
+compile options: '-I/tmp/tmpd0gfw9q7/src.linux-x86_64-3.7 -I/opt/ohpc/pub/apps/anaconda/2020.02/lib/python3.7/site-packages/numpy/core/include -I/opt/ohpc/pub/apps/anaconda/2020.02/include/python3.7m -c'
+nvc: /tmp/tmpd0gfw9q7/src.linux-x86_64-3.7/exsnowmodule.c

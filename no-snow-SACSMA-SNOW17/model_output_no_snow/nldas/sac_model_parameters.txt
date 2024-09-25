@@ -1,0 +1,16 @@
+uztwm   150.0000	
+uzfwm	75.00000
+lztwm	400.0000
+lzfpm	1000.000
+lzfsm   300.0000
+adimp	0.200000
+uzk	0.400000
+lzpk	0.020000
+lzsk	0.250000
+zperc	250.0000
+rexp	5.969000
+pctim	0.100000
+pfree	0.600000
+riva	0.010000
+side	0.010000
+rserv	0.310000
