@@ -20,7 +20,7 @@ Wang, Y.H. and Gupta, H.V., 2024. Towards interpretable physical-conceptual catc
   This directory contains all the script code necessary for stagewise training to build the *HyMODLike* model presented in the paper. We follow the same procedure outlined in the manuscript to train the *HyMODLike* model. All 
   required classes for developing the HyMODLike model are included in the ```MCPBRNN_lib_tools```. **All files** are briefly summarized in the [attached file](https://github.com/YuanHWang/Mass-Conserving-Architecture/blob/main/Note-for-BM.pdf)
 * **GR4J-BM**:
-This directory contains the [*GR4J* model](Perrin et al., 2003; https://www.sciencedirect.com/science/article/abs/pii/S0022169403002257) code used for benchmarking purposes in the paper. It is a modification of the original [repository](https://github.com/amacd31/gr4j)
+This directory contains the [*GR4J* model](https://www.sciencedirect.com/science/article/abs/pii/S0022169403002257) code (Perrin et al., 2003) used for benchmarking purposes in the paper. It is a modification of the original [repository](https://github.com/amacd31/gr4j)
 * **no-snow-SACSMA-SNOW17**:
 This directory contains standalone *SACSMA* model code with the *SNOW17* module deactivated to account for the snow-free conditions of the Leaf River basin. It is a modification of the original [repository](https://github.com/Upstream-Tech/SACSMA-SNOW17/tree/master)
   
