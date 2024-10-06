@@ -18,8 +18,7 @@ Wang, Y.H. and Gupta, H.V., 2024. Towards interpretable physical-conceptual catc
   Each ```.py``` file in this folder is used to evaluate a specific case presented in the paper.
 * **HyMODLike-BM**:
   This directory contains all the script code necessary for stagewise training to build the *HyMODLike* model presented in the paper. We follow the same procedure outlined in the manuscript to train the *HyMODLike* model. All 
-  required classes for developing the HyMODLike model are included in the ```MCPBRNN_lib_tools```.
-All files are briefly summarized in the [attached file] (Mass-Conserving-Architecture/Note-for-BM.pdf)
+  required classes for developing the HyMODLike model are included in the ```MCPBRNN_lib_tools```. All files are briefly summarized in the [attached file] (https://github.com/YuanHWang/Mass-Conserving-Architecture/blob/main/Note-for-BM.pdf)
   
 ## Run the Codes
 
