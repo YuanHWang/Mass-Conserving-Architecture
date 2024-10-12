@@ -2,7 +2,7 @@
 
 This repository contains all the necessary scripts and data for reproducing the results presented in the publication: 
 
-Wang, Y.H. and Gupta, H.V., 2024. Towards interpretable physical‐conceptual catchment‐scale hydrological modeling using the mass‐conserving‐perceptron. Water Resources Research, 60(10), p.e2024WR037224.
+Wang, Y.H. and Gupta, H.V., 2024. Towards interpretable physical‐conceptual catchment‐scale hydrological modeling using the mass‐conserving‐perceptron. Water Resources Research, 60(10), p.e2024WR037224.  https://doi.org/10.1029/2024WR037224
 
 ## Introduction to Each Folder
 
